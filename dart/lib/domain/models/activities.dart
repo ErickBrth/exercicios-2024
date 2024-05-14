@@ -1,11 +1,12 @@
-import 'package:chuva_dart/data/models/category.dart';
-import 'package:chuva_dart/data/models/description.dart';
-import 'package:chuva_dart/data/models/location.dart';
-import 'package:chuva_dart/data/models/role.dart';
-import 'package:chuva_dart/data/models/title.dart';
-import 'package:chuva_dart/data/models/type.dart';
+
+import 'package:chuva_dart/domain/models/category.dart';
+import 'package:chuva_dart/domain/models/description.dart';
+import 'package:chuva_dart/domain/models/person.dart';
+import 'package:chuva_dart/domain/models/role.dart';
+import 'package:chuva_dart/domain/models/title.dart';
+import 'package:chuva_dart/domain/models/location.dart';
+import 'package:chuva_dart/domain/models/type.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:chuva_dart/data/models/person.dart';
 
 import 'bio.dart';
 

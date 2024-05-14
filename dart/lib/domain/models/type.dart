@@ -1,4 +1,4 @@
-import 'package:chuva_dart/data/models/title.dart';
+import 'package:chuva_dart/domain/models/title.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'type.g.dart';

@@ -1,4 +1,4 @@
-import 'package:chuva_dart/application/Home/components/TabBar/tab_item.dart';
+import 'package:chuva_dart/presentation/Home/components/TabBar/tab_item.dart';
 import 'package:flutter/material.dart';
 
 class Tab_Bar extends StatelessWidget {

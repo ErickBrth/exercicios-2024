@@ -1,7 +1,9 @@
-import 'package:chuva_dart/data/controllers/activities_controller.dart';
-import 'package:chuva_dart/data/exceptions/exceptions.dart';
-import 'package:chuva_dart/data/models/activities.dart';
+
+import 'package:chuva_dart/domain/exceptions/exceptions.dart';
+import 'package:chuva_dart/domain/models/activities.dart';
 import 'package:flutter/cupertino.dart';
+
+import '../controllers/activities_controller.dart';
 
 class ActivitiesStore {
   final IActivitiesController controller;

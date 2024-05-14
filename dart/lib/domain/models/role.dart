@@ -2,7 +2,7 @@
 
 import 'package:json_annotation/json_annotation.dart';
 
-import 'package:chuva_dart/data/models/description.dart';
+import 'package:chuva_dart/domain/models/description.dart';
 
 part 'role.g.dart';
 

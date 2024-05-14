@@ -1,6 +1,7 @@
 import 'dart:convert';
 
-import 'package:chuva_dart/data/models/activities.dart';
+
+import 'package:chuva_dart/domain/models/activities.dart';
 import 'package:hive/hive.dart';
 
 class ActivitiesHiveAdapter extends TypeAdapter<Activities>{

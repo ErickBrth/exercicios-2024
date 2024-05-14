@@ -1,6 +1,7 @@
+import 'package:chuva_dart/domain/models/activities.dart';
 import 'package:intl/intl.dart';
 
-import '../../../data/models/activities.dart';
+
 
 class SpeakerController {
   List<Activities> filteraActivitiesByDay(

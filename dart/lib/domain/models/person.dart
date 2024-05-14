@@ -1,5 +1,5 @@
-import 'package:chuva_dart/data/models/bio.dart';
-import 'package:chuva_dart/data/models/role.dart';
+import 'package:chuva_dart/domain/models/bio.dart';
+import 'package:chuva_dart/domain/models/role.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'person.g.dart';

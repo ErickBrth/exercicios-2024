@@ -1,11 +1,11 @@
-import 'package:chuva_dart/application/Home/pages/sub_activities.dart';
-import 'package:chuva_dart/application/Activity/pages/activity.dart';
-import 'package:chuva_dart/data/controllers/activities_controller.dart';
-import 'package:chuva_dart/data/models/activities.dart';
-import 'package:chuva_dart/data/repositories/activities_repository.dart';
 
+
+import 'package:chuva_dart/domain/controllers/activities_controller.dart';
+import 'package:chuva_dart/domain/models/activities.dart';
+import 'package:chuva_dart/infrastructure/repositories/activities_repository.dart';
+import 'package:chuva_dart/presentation/Activity/pages/activity.dart';
+import 'package:chuva_dart/presentation/Home/pages/sub_activities.dart';
 import 'package:flutter/material.dart';
-
 import 'package:from_css_color/from_css_color.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';

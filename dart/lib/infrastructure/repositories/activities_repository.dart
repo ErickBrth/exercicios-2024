@@ -1,5 +1,6 @@
-import 'package:chuva_dart/adapters/activities_hive_adapter.dart';
+
 import 'package:chuva_dart/domain/models/activities.dart';
+import 'package:chuva_dart/infrastructure/hive/adapters/activities_hive_adapter.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'dart:collection';

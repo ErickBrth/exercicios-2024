@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:chuva_dart/domain/models/activities.dart';
+import 'package:chuva_dart/domain/models/person.dart';
 import 'package:chuva_dart/presentation/Home/components/AppBar/app_bar.dart';
 import 'package:chuva_dart/presentation/Home/components/Schedule/schedule_items.dart';
 import 'package:chuva_dart/presentation/Speaker/controller/speaker_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import '../../../data/models/activities.dart';
-import '../../../data/models/person.dart';
 
 class Speaker extends StatefulWidget {
   const Speaker(

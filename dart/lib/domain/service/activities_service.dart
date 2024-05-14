@@ -2,17 +2,19 @@
 
 import 'dart:collection';
 
+import 'package:chuva_dart/domain/exceptions/exceptions.dart';
+import 'package:chuva_dart/domain/models/activities.dart';
+import 'package:chuva_dart/infrastructure/repositories/activities_repository.dart';
 import 'package:html/dom.dart';
 import 'package:html/parser.dart' show parse;
 
-import 'package:chuva_dart/data/exceptions/exceptions.dart';
 import 'dart:convert';
-import 'package:chuva_dart/data/models/activities.dart';
+
 import 'package:dio/dio.dart';
 import 'package:html/parser.dart';
 import 'package:intl/intl.dart';
 
-import '../../data/repositories/activities_repository.dart';
+
 import '../models/person.dart';
 
 abstract class IActivitiesService{
@@ -34,6 +36,7 @@ class ActivitiesService implements IActivitiesService {
   List<Activities> activities = [];
   ActivitiesRepository repository = ActivitiesRepository();
 
+  @override
   Map<int, List<Activities>> getAllGroupedActivities () {
     return repository.subActivities;
   }

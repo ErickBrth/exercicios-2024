@@ -1,11 +1,12 @@
-import 'package:chuva_dart/application/Home/components/AppBar/app_bar.dart';
-import 'package:chuva_dart/application/Home/components/Schedule/schedule_items.dart';
-import 'package:chuva_dart/application/Activity/components/add_button.dart';
-import 'package:chuva_dart/application/Activity/components/info.dart';
-import 'package:chuva_dart/application/Activity/components/list_role.dart';
-import 'package:chuva_dart/data/controllers/activities_controller.dart';
-import 'package:chuva_dart/data/models/activities.dart';
 
+
+import 'package:chuva_dart/domain/controllers/activities_controller.dart';
+import 'package:chuva_dart/domain/models/activities.dart';
+import 'package:chuva_dart/presentation/Activity/components/add_button.dart';
+import 'package:chuva_dart/presentation/Activity/components/info.dart';
+import 'package:chuva_dart/presentation/Activity/components/list_role.dart';
+import 'package:chuva_dart/presentation/Home/components/AppBar/app_bar.dart';
+import 'package:chuva_dart/presentation/Home/components/Schedule/schedule_items.dart';
 import 'package:flutter/material.dart';
 import 'package:from_css_color/from_css_color.dart';
 import 'package:intl/date_symbol_data_local.dart';

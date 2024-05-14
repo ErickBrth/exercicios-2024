@@ -1,6 +1,6 @@
-import 'package:chuva_dart/application/Home/pages/calendar.dart';
-import 'package:chuva_dart/application/Speaker/pages/speaker.dart';
-import 'package:chuva_dart/application/Activity/pages/activity.dart';
+import 'package:chuva_dart/presentation/Activity/pages/activity.dart';
+import 'package:chuva_dart/presentation/Home/pages/calendar.dart';
+import 'package:chuva_dart/presentation/Speaker/pages/speaker.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

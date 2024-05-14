@@ -1,7 +1,8 @@
 import 'dart:io';
 
-import 'package:chuva_dart/application/Home/pages/calendar.dart';
+
 import 'package:chuva_dart/main.dart';
+import 'package:chuva_dart/presentation/Home/pages/calendar.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:path_provider/path_provider.dart';

@@ -1,5 +1,5 @@
-import 'package:chuva_dart/configs/hive_config.dart';
-import 'package:chuva_dart/data/repositories/activities_repository.dart';
+import 'package:chuva_dart/infrastructure/hive/configs/hive_config.dart';
+import 'package:chuva_dart/infrastructure/repositories/activities_repository.dart';
 import 'package:chuva_dart/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:from_css_color/from_css_color.dart';
